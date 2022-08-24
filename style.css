@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(114, 36, 213, 1) 38%, rgba(217, 187, 255, 1) 100%);
+
+
+}
+
+h1 {
+    color: rgb(245, 216, 245);
+    font-size: 70px;
+}
+
+.clock-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(238, 191, 238);
+    margin: 2rem;
+    color: white;
+    font-size: 160px;
+    border-radius: 20px;
+
+}
+
+.dots {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.separations {
+    background-color: rgb(253, 235, 235);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.date-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(210, 186, 210);
+    margin: 3rem;
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+.slash {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.back-slash {
+    background-color: rgb(253, 235, 235);
+    width: 5px;
+    height: 70px;
+    transform: rotate(30deg);
+}
