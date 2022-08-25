@@ -35,7 +35,7 @@ else if (hour > 12) {
 }
 
 day.innerHTML = `${myDay}`;
-month.innerHTML = `${myMonth}`;
+month.innerHTML = `${myMonth+1}`;
 year.innerHTML = `${myYear}`;
 
 
